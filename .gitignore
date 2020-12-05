@@ -40,3 +40,5 @@ typings
 # Yarn files
 yarn.lock
 yarn-error.log*
+
+/dist

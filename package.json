@@ -1,14 +1,17 @@
 {
   "name": "react-redux-registration-login-example",
+  "homepage": "http://namachivayamd.github.io/react-redux-registration-login-demo",
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cornflourblue/react-redux-registration-login-example.git"
+    "url": "https://github.com/namachivayamd/react-redux-registration-login-demo"
   },
   "license": "MIT",
   "scripts": {
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --open"
+    "start": "webpack-dev-server --open",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "gh-pages": "^3.1.0",
